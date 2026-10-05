@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="kk" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Python: Жолдар мен тізімдер</title>
+  <meta name="description" content="Python: жолдар мен тізімдер — екі сабаққа арналған интерактивті сайт (қазақ тілінде).">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%236d4df0'/%3E%3Cpath d='M12 11l-5 5 5 5M20 11l5 5-5 5' fill='none' stroke='%2322d3ee' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-theme="light" data-view="study" data-screen="home">
+  <a class="skip-link" href="#main">Негізгі мазмұнға өту</a>
+
+  <header id="topbar" class="topbar" role="banner"></header>
+
+  <main id="main" class="main">
+    <div id="loading" class="loading" role="status">Жүктелуде…</div>
+    <noscript><p class="noscript">Бұл сайт жұмыс істеуі үшін JavaScript қосылған болуы керек.</p></noscript>
+    <div id="home" class="home" hidden></div>
+    <div id="stage" class="stage" hidden tabindex="-1">
+      <div id="slide-host" class="slide-host"></div>
+    </div>
+  </main>
+
+  <footer id="bottombar" class="bottombar" hidden></footer>
+  <div id="focus-cluster" class="focus-cluster" aria-label="Фокус режимінің басқаруы"></div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <div id="modal-root"></div>
+  <div id="print-area" aria-hidden="true"></div>
+
+  <script src="lessons.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
